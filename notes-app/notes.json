@@ -1,0 +1,5 @@
+[
+  { "title": "NodeJS", "body": "JavaScript runtime environment" },
+  { "title": "ReactJS", "body": "Used to create UI" },
+  { "title": "TypeScript", "body": "Adds typing and other features to JS" }
+]

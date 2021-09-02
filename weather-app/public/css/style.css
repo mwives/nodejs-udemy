@@ -1,0 +1,59 @@
+.navbar-brand {
+    display: inline-block;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+main.container {
+    max-width: 50rem;
+}
+
+article {
+    margin: auto;
+}
+
+label {
+    display: block;
+}
+
+#location-input {
+    width: 15rem;
+    display: inline-block;
+}
+
+#scale-select {
+    width: 5rem;
+    display: inline-block;
+}
+
+input[type=submit] {
+    display: block;
+}
+
+p {
+    margin: .5rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.footer p {
+    margin: 0;
+    display: inline;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer svg {
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0 0 .3rem .4rem;
+    justify-content: center;
+    align-items: center;
+}

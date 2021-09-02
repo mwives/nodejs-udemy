@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> headTags }}
+
+    <style>
+        #nav-home {
+            color: #fff;
+        }
+    </style>
+
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    {{> header }}
+
+    <main class="container">
+
+        <article class="lead">
+
+            <h2 class="text-center mt-4">
+                Get your weather!
+            </h2>
+
+            <p>
+                Simply put your (or any other) location below and get the results!
+            </p>
+
+            <form class="mt-3" id="location-form">
+
+                <label class="form-label" for="location-input">Location</label>
+                <input class="form-control" type="text" name="location-input" id="location-input" placeholder="Type your location">
+
+                <select class="form-select" id="scale-select">
+                    <option selected value="1">ºC</option>
+                    <option value="2">ºF</option>
+                </select>
+
+                <input class="btn btn-success mt-2" type="submit" value="Search">
+            </form>
+
+            <div class="results">
+                <p class="mt-3" id="msg-1"></p>
+                <p id="msg-2"></p>
+            </div>
+        </article>
+    </main>
+
+    {{> footer }}
+
+</body>
+
+</html>
