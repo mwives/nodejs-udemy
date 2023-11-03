@@ -2,7 +2,7 @@
 
 ### Projects made by instructions of a Udemy NodeJS course
 
-I'm working on a remake of this. It's not finished, but you can access the repository [here](https://github.com/mwives/nodejs-udemy-ts-remake)
+In order to access the upgraded version of this project, you can access [this repository](https://github.com/mwives/nodejs-udemy-ts-remake).
 
 ## Projects
 
